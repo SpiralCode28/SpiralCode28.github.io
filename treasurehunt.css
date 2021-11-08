@@ -1,8 +1,8 @@
-
 body{
   /* key: value */
+  /*background-color: lightblue */
   background-Image: url("https://cdn.pixabay.com/photo/2015/12/10/15/14/winter-1086583_1280.jpg");
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   background-attachment: fixed;
 }
@@ -12,19 +12,39 @@ img{
   margin-right: auto;
   width: 500px;
 }
-.intro{
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 h1{
   font-family: 'Mountains of Christmas', cursive;
   font-size: 50px;
   text-align: center;
   color: red;
-  animation: bounceIn 4s infinite;
-  animation-timing-function: ease-in-out;
-
+  background: black;
+  opacity: 0.2;
+}
+.intro{
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.rules{
+  background-color: white;
+}
+p{
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: green;
+}
+h3{
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+ul{
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: green;
 }
 #rules-intro{
   color: darkblue;
@@ -36,12 +56,13 @@ h1{
     font-size: 50px;
 }
 td{
-  margin: auto;
+margin: auto;
   border: 1px solid red;
-  padding-right: 70px;
-  padding-left: 70px;
-  padding-top: 5px;
-  padding-bottom: 8px;
+  padding-left:70px;
+  padding-right:70px;
+  padding-top:5px;
+  padding-bottom:8px;
+    margin: auto;
 }
 #gameboard{
   margin: auto;
